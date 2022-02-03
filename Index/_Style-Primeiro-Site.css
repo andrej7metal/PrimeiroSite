@@ -1,57 +1,67 @@
  
-body{
+  body{
   background-image: url(imagens/close_fields-wide.jpg);
   background-size:220vh; /* muda posiçao da foto no background focando no melhor angulo da foto*/
-  background-position: right 10vh; /* move a imagem  a direita para cobrir o viewport que falta nas laterais do navegador*/
-  background-position-y:10px; /* move para cima a imagem para cobrir a viewport que falta para cobrir todo background no navegador*/
+  background-position: right 10vh;  /* move a imagem  a direita para cobrir o viewport que falta nas laterais do navegador*/
+  background-position-y:100px; /* move para cima a imagem para cobrir a viewport que falta para cobrir todo background no navegador*/
   background-repeat: no-repeat; /* Imagem nao reprete no background */
- background-image: contain; /* contain a imagem cobre metade do viewport e COVER cobre a viewport toda extendendo a imagem*/
-
+  background-image: contain;  /*contain a imagem cobre metade do viewport e COVER cobre a viewport toda extendendo a imagem*/
+  background-attachment: scroll;
+  
+  /* acima no background attachament se usar FIXED sómente os borderz bordas com texto dentro vai se mover e imagem no background fica Parada FIXA.
+se usar SCROLL move a imagem do background junto*/
+/* PARA SE ADAPTAR A VIEWPORT NA MAIORIA DOS APARELHOS USA ATACHAMENT SCROLL E BACKGROUND SIZE: COVER */
 }
 
-
-      h2{
-          text-align: center;
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 40px ;
-          border: 4px solid rgb(48, 24, 24);
-          border-radius: 10px;          /* curva da borda fica arredondada */
-          display:inline right ;
+  h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px ;
+  border: 4px solid rgb(48, 24, 24);
+  border-radius: 20px;          /* curva da borda fica arredondada */
+  display:inline right ;
  }
 
-      h3{
-          text-align: center;
-          position:absolute;
-          background-color: yellow;
-          text-decoration-style: solid;
+  h3{
+  text-align: center;
+  position:absolute;
+  background-color: yellow;
+  text-decoration-style: solid;
 
  }
 
-    div#R1{
-          text-align: center;
-          position: fixed; bottom: 12%; left:13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
-          width: 300px;
-          height: 200px;
-          border: rgb(200, 218, 208) solid 3px;
-          text-align: center;
-          background-image:url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
+  div#R1{
+  text-align: center;
+  position: fixed; bottom: 12%; left:13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
+  width: 300px;
+  height: 200px;
+  border: rgb(200, 218, 208) solid 3px;
+  text-align: center;
+  background-image:url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
   }
 
   div#R2{
-      /* ABAIXO COMANDO IMPORTANTE PARA POSICIONAR IMAGEM NO NAVEGADOR VIEWPORT */
-      position: fixed; bottom: 10; left: 13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
-      height: 200px;
-      width: 300px;
-      border: white solid 3px;
-      background: url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
-      background-position: left;
+     /* ABAIXO COMANDO IMPORTANTE PARA POSICIONAR IMAGEM NO NAVEGADOR VIEWPORT */
+  position: fixed; bottom: 10; left: 13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
+  height: 200px;
+  width: 300px;
+  border: white solid 3px;
+  background: url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
+  background-position: left;
     }
 
-    div#R3{
-        position: fixed; bottom: -24%; left: 13px; width: 0; 
-        height: 200px;
-        width: 300px;
-        border: solid white 3px;
-        background-image: url(imagens/P_parede1.jpg);
-        background-position: right; /*  position corta imagem em 4 quadrados left left , center center , right right , bottom center,   pode mesclar e assim pegar as  melhores partes de uma unica imagem */
+  div#R3{
+  position: fixed; bottom: -24%; left: 13px; width: 0; 
+  height: 200px;
+  width: 300px;
+  border: solid white 3px;
+  background-image: url(imagens/P_parede1.jpg);
+  background-position: right; /*  position corta imagem em 4 quadrados left left , center center , right right , bottom center,   pode mesclar e assim pegar as  melhores partes de uma unica imagem */
 } 
+
+p{
+  text-align: center;
+border: 4px solid rgb(70, 85, 71); width: 500px; height: 700px;
+position:relative; left: 400px;
+
+}
