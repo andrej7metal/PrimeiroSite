@@ -25,7 +25,8 @@ background-color: yellow;
  }
 
   div#R1{
-   
+   width: 300px;
+   height: 200px;
    border: turquoise solid 3px;
    text-align: center;
   }
