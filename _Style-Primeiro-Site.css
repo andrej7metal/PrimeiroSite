@@ -1,0 +1,31 @@
+ 
+body{
+  background-image: url(imagens/close_fields-wide.jpg);
+  background-size:220vh; /* muda posiçao da foto no background focando no melhor angulo da foto*/
+  background-position: right 10vh; /* move a imagem  a direita para cobrir o viewport que falta nas laterais do navegador*/
+  background-position-y:10px; /* move para cima a imagem para cobrir a viewport que falta para cobrir todo background no navegador*/
+  background-repeat: no-repeat; /* Imagem nao reprete no background */
+ background-image: contain; /* contain a imagem cobre metade do viewport e COVER cobre a viewport toda extendendo a imagem*/
+  }
+
+
+      h2{
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 40px ;
+          border: 4px solid rgb(48, 24, 24);
+          border-radius: 10px;          /* curva da borda fica arredondada */
+          display:inline right ;
+ }
+
+ h3{
+position:absolute;
+background-color: yellow;
+
+ }
+
+  div#R1{
+   
+   border: turquoise solid 3px;
+   text-align: center;
+  }
