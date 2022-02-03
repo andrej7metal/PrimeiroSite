@@ -18,15 +18,30 @@ body{
           display:inline right ;
  }
 
- h3{
-position:absolute;
-background-color: yellow;
+    h3{
+     
+          position:absolute;
+          background-color: yellow;
+          text-decoration-style: solid;
 
  }
 
-  div#R1{
-   width: 300px;
-   height: 200px;
-   border: turquoise solid 3px;
-   text-align: center;
+    div#R1{
+          position: fixed; bottom: 3%; left: 20px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
+          width: 300px;
+          height: 200px;
+          border: rgb(200, 218, 208) solid 3px;
+          text-align: center;
+          background-image:url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
   }
+
+  div#R2{
+      /* ABAIXO COMANDO IMPORTANTE PARA POSICIONAR IMAGEM NO NAVEGADOR VIEWPORT */
+      position: fixed; bottom: 3%; left: 350px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
+      height: 200px;
+      width: 300px;
+      border: white solid 3px;
+      background: url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
+      background-position: left;
+    }
+
