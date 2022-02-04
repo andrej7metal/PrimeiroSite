@@ -82,7 +82,7 @@ se usar SCROLL move a imagem do background junto*/
 } 
 
 p:hover{
-height: 640px;
+height: 840px;
 min-width: 800px; left: 25%;  /* quando passa o mouse ajusta o tamanho minimo do texto */
 border-color: rgb(0, 194, 26);
 background-image: url(imagens/flor\ de\ lotus\ rosa.jpg);
@@ -121,4 +121,5 @@ p{
   background-size: cover ; /* estende imagem na largura do painel SIZE COVER */
   border-radius: 3px;
 }
+
 
