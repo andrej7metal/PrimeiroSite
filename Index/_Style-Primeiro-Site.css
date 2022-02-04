@@ -82,16 +82,15 @@ se usar SCROLL move a imagem do background junto*/
 } 
 
 p:hover{
+height: 640px;
 min-width: 800px; left: 25%;  /* quando passa o mouse ajusta o tamanho minimo do texto */
-border-color: rgb(123, 245, 1);
+border-color: rgb(0, 194, 26);
 background-image: url(imagens/flor\ de\ lotus\ rosa.jpg);
 cursor:pointer; /* ponteiro do mouse vira uma maozinha */
 background-repeat: no-repeat; /* nao repete a imagem do background*/
 background-size: cover;/* estende imagem toda no BOX criado com width e height*/
 background-position: left -70px;
 color: rgb(221, 220, 220);
-
-
 }
 
 p{
