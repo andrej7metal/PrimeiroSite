@@ -76,8 +76,10 @@ se usar SCROLL move a imagem do background junto*/
 
 
 p{
-  border: sticky black ;
-  width: 400px;
-  height: 800px;
-  margin-right: 300px;
+  border: solid black 4px;
+  width: 200px;
+  height: 700px;
+  left: 1120px;
+  bottom: 630px;
+  position: relative;
 }
