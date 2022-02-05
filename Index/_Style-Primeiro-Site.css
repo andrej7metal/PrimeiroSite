@@ -8,7 +8,7 @@
   background-image: fixed;  /*contain a imagem cobre metade do viewport e COVER cobre a viewport toda extendendo a imagem*/
   background-position: bottom; /* move imagem do background para baixo*/
   overflow: auto;
-  background-position-y: -300px;
+  background-position-y: -337px;
   /* acima no background attachament se usar FIXED sómente os borderz bordas com texto dentro vai se mover e imagem no background fica Parada FIXA.
 se usar SCROLL move a imagem do background junto*/
 /* PARA SE ADAPTAR A VIEWPORT NA MAIORIA DOS APARELHOS USA ATACHAMENT SCROLL E BACKGROUND SIZE: COVER */
