@@ -17,6 +17,10 @@ body{
    
    h2{
        position: relative;
+       bottom: -450px;
+       right: 5px;
+    
+       
        
    }
    
@@ -75,6 +79,4 @@ body{
        left: 1020px;
        top: -280px;
        border-radius: 10px;
-       
-   
-   }
+       }
