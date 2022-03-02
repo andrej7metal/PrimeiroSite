@@ -28,6 +28,7 @@ se usar SCROLL move a imagem do background junto*/
   
  }
 
+
   h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
@@ -38,14 +39,24 @@ se usar SCROLL move a imagem do background junto*/
   margin-top: -10px;
  }
 
+ #R1:hover{
+color:rgb(248, 244, 7);
+border-color: white;
+text-decoration: double;
+cursor:-webkit-grab;
+border-radius: 7%;
+font-size: x-large;
+ }
+
   #R1{ 
   /*margin-top: 0;*/
   text-align: center;
  /* position: sticky ; bottom: -50%; left:13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
   /* Comando Stycky faz a DIv ROLAR com o background e nao deixa ficar flutuando*/
+  color:white;
   width: 300px;
   height: 190px;
-  border: rgb(59, 48, 48) solid 3px;
+  border: rgb(59, 29, 29) solid 3px;
   text-align: center;
   background-image:url(imagens/cachoeira.jpg);
   background-position: bottom;
@@ -53,14 +64,28 @@ se usar SCROLL move a imagem do background junto*/
   top: 10px;
   position: relative;
   border-radius: 3px;
+  
 }
 
-  #R2{
+
+#R2:hover{
+color:rgb(248, 244, 7);
+border-color: white;
+cursor: -webkit-grab;
+border-radius: 7%;
+font-size: x-large;
+text-decoration: double;
+
+}
+  
+#R2{
      /* ABAIXO COMANDO IMPORTANTE PARA POSICIONAR IMAGEM NO NAVEGADOR VIEWPORT */
   /*position: sticky; bottom: -20p; left: 13px; width: 0; text-align: center; /* comando para editar posiçao do div no viewport*/
+  color: white;
+  text-align: center;
   height: 190px;
   width: 300px;
-  border: rgb(59, 48, 48) solid 3px;
+  border: rgb(59, 29, 29) solid 3px;
   background: url(imagens/Canada_Parks_Lake_Houses_Bridges_Emerald_Lake.jpg);
   background-position: left;
   top: 40px;
@@ -68,9 +93,19 @@ se usar SCROLL move a imagem do background junto*/
   border-radius: 3px;   
 }
 
-  #R3{
+#R3:hover{
+color: rgb(248, 244, 7);
+border-color: white;
+cursor: -webkit-grab;
+border-radius: 7%;
+font-size: x-large;
+text-decoration: double;
+}
+ 
+#R3{
+  color: white;
   text-align: center;
-  border:rgb(59, 48, 48) solid 3px;
+  border:rgb(59, 29, 29) solid 3px;
   height: 190px;
   width: 300px;
   background-image:url(imagens/ponte.jpg);
