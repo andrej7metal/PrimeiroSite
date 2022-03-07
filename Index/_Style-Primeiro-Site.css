@@ -16,9 +16,37 @@ se usar SCROLL move a imagem do background junto*/
 
   main{
   background-color: blue;
+ }
  
+ /* Abaixo manipulando ID usando #  e foi criado 3 blocos que podem ser clicados e direcionados usando o comando border*/
+ /*#Tecnologia-agro{
+  border: 15px solid black ;
+ width: 400px;
+ height: 300px;
+ }
+
+ #Permacultura{
+   border: 15px solid pink;
+   width: 400px;
+   height: 300px;
+ }
+
+ #Reciclagem-Consciente{
+border: 15px solid lime;
+width: 400px;
+height: 300px;
+
+ }
+
+*/
+
+
+.Modificado{
+border: 3pxpx solid black;
+background-image: url(imagens/Raios\ do\ sol.jpg);
 }
-  h2{
+  
+h2{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px ;
@@ -117,15 +145,13 @@ text-decoration: double;
 } 
 
 p:hover{
-height: 840px;
-min-width: 800px; left: 25%;  /* quando passa o mouse ajusta o tamanho minimo do texto */
-border-color: rgb(0, 194, 26);
-background-image: url(imagens/flor\ de\ lotus\ rosa.jpg);
+  background-image: url(imagens/flores\ no\ por\ do\ sol.jpg);
 cursor:pointer; /* ponteiro do mouse vira uma maozinha */
-background-repeat: no-repeat; /* nao repete a imagem do background*/
-background-size: cover;/* estende imagem toda no BOX criado com width e height*/
-background-position: left -70px;
-color: rgb(221, 220, 220);
+background-size: cover ;/* estende imagem toda no BOX criado com width e height*/
+color: white;
+background-repeat: no-repeat;
+background-position: left;
+
 }
 
 p{
@@ -140,7 +166,10 @@ p{
   font-size: 20px;
   text-align:center;
   border-radius: 8px;
-  
+  background-image: url(imagens/arara\ amarela\ e\ azul.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #PL1{
